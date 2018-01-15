@@ -6,3 +6,32 @@ html {
   opacity: 0.9;
   text-align: center;
 }
+
+a {
+  color: seashell;
+}
+
+header {
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  background-color: black;
+  top: 0px;
+}
+header img {
+  position: fixed;
+  height: 50px;
+  width: auto;
+  top: 10px;
+  left: 10px;
+}
+header nav {
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+
+nav span {
+  padding: 0px 10px;
+}

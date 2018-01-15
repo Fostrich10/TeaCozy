@@ -1,3 +1,5 @@
+/* Overall styles */
+
 html {
   font-family: Helvetica, sans-serif;
   font-size: 22px;
@@ -6,6 +8,12 @@ html {
   opacity: 0.9;
   text-align: center;
 }
+
+body {
+  margin: 0;
+}
+
+/* Header styles */
 
 a {
   color: seashell;
@@ -18,7 +26,9 @@ header {
   position: fixed;
   background-color: black;
   top: 0px;
+  z-index: 10;
 }
+
 header img {
   position: fixed;
   height: 50px;
@@ -26,6 +36,7 @@ header img {
   top: 10px;
   left: 10px;
 }
+
 header nav {
   position: absolute;
   top: 20px;
@@ -35,3 +46,32 @@ header nav {
 nav span {
   padding: 0px 10px;
 }
+
+/* Content styles */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 5;
+}
+
+/* Mission statement styles */
+
+#mission {
+  background-image: url(../images/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 70px;
+}
+
+.mission {
+  background-color: black;
+  width: 100%;
+}
+
+/* Tea of the Month styles */
